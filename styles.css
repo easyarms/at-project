@@ -1,0 +1,28 @@
+body {
+	position: relative;
+	height: 100vh;
+  }
+  
+
+#StartCode {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);  
+	background-color: #FDDC2D; /* Зеленый цвет фона */
+	border: none; /* Убираем границу */
+	color: black; /* Белый цвет текста */
+	padding: 20px 44px; /* Отступы внутри кнопки */
+	text-align: center; /* Центрирование текста */
+	text-decoration: none; /* Убираем подчеркивание */
+	display: inline-block; /* Отображение как блочный элемент */
+	font-size: 14px; /* Размер шрифта */
+	margin: 4px 2px; /* Внешние отступы */
+	cursor: pointer; /* Стиль курсора при наведении */
+	border-radius: 10px; /* Скругление углов */
+	font-family: 'Raleway', sans-serif;
+  }
+  
+#StartCode:hover {
+	background-color: #FFCF33; /* Цвет фона при наведении */
+  }  
